@@ -4,8 +4,9 @@ from glx.apphelper import *
 APPNAME = "hyperspeed"
 CONFIG_TEMPLATE = { 
     "attribute_id":False,
+    "repeat": 10
 }
-__version__ = "0.0.2"
+__version__ = "0.1.0"
 
 def main(community_name=None):
     print("calc_value:",calc_value)
@@ -20,5 +21,5 @@ def calc_value(ecount):
         return 10
     return multipliers[ecount]
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+#    main()
