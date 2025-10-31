@@ -46,7 +46,7 @@ setup(
     keywords=[],
     scripts=[],
     entry_points={"console_scripts": [
-        "hyperspeed=hyperspeed.hyperspeed:main"
+        "hyperspeed=hyperspeed.hyperspeed:cli"
         ]},
     data_files=[("share/man/man6", ["man/hyperspeed.6"])],
     zip_safe=False,

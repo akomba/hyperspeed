@@ -1,0 +1,7 @@
+attribute_id  = "SETUP"
+collection_id = 1
+
+[[loops]]
+name          = "hyperspeed"
+repeat        = 10
+module        = "hyperspeed.hyperspeed" 
